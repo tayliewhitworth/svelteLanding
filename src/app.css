@@ -3,82 +3,91 @@
 @tailwind utilities;
 
 :root {
-    --primary: #284B63;
-    --secondary: #F4A261;
-    --tertiary: #E9C46A;
-    --quaternary: #E76F51;
-    --quinary: #2A9D8F;
-    --white: #F4F4F4;
-    --black: #222222;
-    --gray: #9E9E9E;
-    --lightGray: #E0E0E0;
-    --darkGray: #333333;
-    --light: 300;
-    --regular: 400;
-    --medium: 500;
-    --bold: 700;
-
+  --primary: #284b63;
+  --secondary: #f4a261;
+  --tertiary: #e9c46a;
+  --quaternary: #e76f51;
+  --quinary: #2a9d8f;
+  --white: #f4f4f4;
+  --black: #222222;
+  --gray: #9e9e9e;
+  --lightGray: #e0e0e0;
+  --darkGray: #333333;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, .montserrat {
-    font-family: "Montserrat", sans-serif;
+h1,
+h2,
+h3,
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 
 span {
-    font-family: inherit;
+  font-family: inherit;
 }
 
 .bgGrid {
-    background-size: 40px 40px;
-    background-image: linear-gradient(to right, #284B63 1px, transparent 1px), linear-gradient(to bottom, #284B63 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, #284b63 1px, transparent 1px),
+    linear-gradient(to bottom, #284b63 1px, transparent 1px);
 }
 
 .primaryText {
-    color: var(--primary);
+  color: var(--primary);
 }
 
-button, .button {
-    /* background-color: var(--primary); */
-    /* color: var(--white); */
-    /* border: none; */
-    border: 1px solid transparent;
-    color: var(--primary);
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: var(--medium);
-    font-family: inherit;
-    cursor: pointer;
-    transition: all 0.3s ease;
+button,
+.button {
+  /* background-color: var(--primary); */
+  /* color: var(--white); */
+  /* border: none; */
+  border: 1px solid transparent;
+  color: var(--primary);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: var(--medium);
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-button:hover, .button:hover, button:focus, .button:focus{
-    /* background-color: var(--secondary); */
-    border-color: var(--primary);
+button:hover,
+.button:hover,
+button:focus,
+.button:focus {
+  /* background-color: var(--secondary); */
+  border-color: var(--primary);
 }
 
 .specialBtn {
-    border-color: var(--primary);
+  border-color: var(--primary);
 }
 
-.specialBtn:hover, .specialBtn:focus {
-    background-color: var(--primary);
-    color: var(--white);
+.specialBtn:hover,
+.specialBtn:focus {
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 .specialBtnSecondary {
-    background-color: var(--secondary);
-    color: var(--white);
+  background-color: var(--secondary);
+  color: var(--white);
 }
 
-.specialBtnSecondary:hover, .specialBtnSecondary:focus {
-    background-color: var(--primary);
-    border-color: var(--primary);
+.specialBtnSecondary:hover,
+.specialBtnSecondary:focus {
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
