@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-                <a href="https://flowbite.com" class="flex items-center">
+                <a href="/" class="flex items-center">
                     <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" /> -->
                     <span class="self-center text-2xl font-semibold whitespace-nowrap"><span class="text-cyan-800">Revamp</span> Flooring</span>
                 </a>
@@ -48,7 +48,7 @@
         </div>
         <hr class="my-6 border-slate-200 sm:mx-auto lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-slate-500 sm:text-center dark:text-slate-400">© 2024 <a href="https://flowbite.com" class="hover:underline">Revamp Flooring</a>. All Rights Reserved.
+            <span class="text-sm text-slate-500 sm:text-center dark:text-slate-400">© 2024 <a href="/" class="hover:underline">Revamp Flooring</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="/" class="text-slate-500 hover:text-slate-900">

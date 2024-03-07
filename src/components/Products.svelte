@@ -41,13 +41,18 @@
         <div
           class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
         >
-          <!-- Product 1 -->
           {#each productFeatures as product}
             <ProductCard {product} />
           {/each}
 
-          <!-- More products... -->
         </div>
+      </div>
+      <div class="flex items-center justify-center mb-4">
+        <button
+          class="specialBtn text-sm"
+        >
+         <a href="#all-products">View All Products</a>
+        </button>
       </div>
     </div>
   </div>

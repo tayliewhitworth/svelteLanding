@@ -40,8 +40,8 @@ span {
 
 .bgGrid {
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, #284b63 1px, transparent 1px),
-    linear-gradient(to bottom, #284b63 1px, transparent 1px);
+  background-image: linear-gradient(to right, #284b63 2px, transparent 1px),
+    linear-gradient(to bottom, #284b63 2px, transparent 1px);
 }
 
 .primaryText {

@@ -2,9 +2,10 @@
   import Ctas from "./Ctas.svelte";
   import Header from "./Header.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
+  import Stars from "./Stars.svelte";
 </script>
 
-<SectionWrapper>
+<SectionWrapper id="">
   <Header />
   <div
     class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
@@ -22,7 +23,8 @@
       or browse our products below.
     </p>
     <Ctas />
-    <div class="flex items-center justify-center gap-2 text-base">
+    <Stars rating={4.6} amount={100} />
+    <!-- <div class="flex items-center justify-center gap-2 text-base">
       <p>4.6</p>
       {#each [0, 1, 2, 3, 4] as star}
         <div class="grid place-items-center relative">
@@ -36,6 +38,6 @@
         </div>
       {/each}
       <p>100+ reviews</p>
-    </div>
+    </div> -->
   </div>
 </SectionWrapper>

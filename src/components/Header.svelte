@@ -1,4 +1,5 @@
 <script>
+  import { openModal } from "../store";
 </script>
 
 <header class="flex flex-col fixed z-20 w-full bg-white bg-opacity-80">
@@ -8,8 +9,8 @@
     <a href="/">
         <h1 class="font-semibold"><span class="text-cyan-800">Revamp</span> Flooring</h1>
     </a>
-    <button class="md:hidden grid place-items-center text-cyan-800">
-        <i class="fa-solid fa-bars-staggered"></i>
+    <button on:click={() => openModal.update((n) => !n)} class="md:hidden grid place-items-center text-cyan-800 outline-none border-none">
+        <i class="fa-solid fa-bars-staggered text-lg"></i>
     </button>
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
         <a href="#about" class="hover:text-cyan-800 duration-200 cursor-pointer font-medium">About</a>
